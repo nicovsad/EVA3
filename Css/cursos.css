@@ -1,0 +1,103 @@
+
+.navbar-custom {
+  background-color: #f0c018 !important;
+}
+header,
+footer {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
+}
+.contenedor img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.contenedor {
+    max-width: 800px;
+    margin: 40px auto;
+    background: linear-gradient(to right, #100063, #6a4dbd);
+    padding: 20px;
+    border-radius: 12px;
+}
+section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #f0c018 !important;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: justify;
+}
+#titulo, #Introduccion, #Mision, #vision {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+        .curso {
+            background: linear-gradient(to right, #100063, #6a4dbd);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            color: white;
+        }
+        .btn-malla {
+            background-color: #f0c018;
+            border: none;
+            padding: 8px 16px;
+            color: #000;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .btn-malla:hover {
+            background-color: #d1a316;
+        }
+        .malla-curricular {
+            display: none;
+            margin-top: 15px;
+            background-color: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            color: #fff;
+        }
+        #registro {
+            background-color: rgba(68, 82, 160, 0.95);
+            padding: 30px;
+            border-radius: 12px;
+            color: white;
+            margin-top: 40px;
+        }
+        #registro label {
+            font-weight: bold;
+        }
+        #registro input, #registro textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: none;
+        }
+        #registro button {
+            background-color: #f0c018;
+            border: none;
+            padding: 10px 20px;
+            color: #000;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        #registro button:hover {
+            background-color: #d1a316;
+        }

@@ -1,0 +1,55 @@
+.navbar-custom {
+  background-color: #f0c018 !important;
+}
+header,
+footer {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
+}
+.contenedor img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.contenedor {
+    max-width: 800px;
+    margin: 40px auto;
+    background: linear-gradient(to right, #100063, #6a4dbd);
+    padding: 20px;
+    border-radius: 12px;
+}
+section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #f0c018 !important;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: justify;
+}
+#titulo, #Introduccion, #Mision, #vision {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.pagina-contacto {
+  display: flex;
+  justify-content: center;     /* centra horizontalmente */
+  align-items: center;         /* centra verticalmente */
+  background: linear-gradient(to right, #100063, #6a4dbd); /* opcional */
+  padding: 20px;
+  text-align: center;
+}
+main.container .card {
+  min-height: 100%;
+}
